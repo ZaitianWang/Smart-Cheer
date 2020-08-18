@@ -4,7 +4,7 @@
 #include <windows.h>
 void online_friend();
 int main(){
-	printf("±ÈÈü½øĞĞÖĞ¡£¡£¡£\n");
+    printf("æ¯”èµ›è¿›è¡Œä¸­ã€‚ã€‚ã€‚\n");
     online_friend();
 
 }
@@ -13,12 +13,12 @@ void online_friend()
 
     int a;
     Sleep(2000);
-    printf("ÕÅÈıÕıÔÚ¹Û¿´±ÈÈü£¬ÊÇ·ñÅÄÒ»ÅÄ(ÊäÈë1)\n"); 
+    printf("å¼ ä¸‰æ­£åœ¨è§‚çœ‹æ¯”èµ›ï¼Œæ˜¯å¦æ‹ä¸€æ‹(è¾“å…¥1)\n"); 
     scanf("%d",&a);
     Sleep(2000);
     if(a==1)
     {
-        printf("ÄãÅÄÁËÅÄÕÅÈıµÄ²¢Í¨ÖªËûÄãÒ²ÔÚ¹Û¿´\n");
+        printf("ä½ æ‹äº†æ‹å¼ ä¸‰çš„å¹¶é€šçŸ¥ä»–ä½ ä¹Ÿåœ¨è§‚çœ‹\n");
     }
     return;
 
